@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.header {
+  background-color: #FE9CC6;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.menu {
+  color: #fff;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 100px 0px 220px;
+}
+
+.menu_item {
+  margin-right: 10px;
+}
+
+.menu_item:last-child {
+  margin-right: 0;
+}
+
+.menu_item a {
+  color: #fff;
+  padding: 0px 3px 5px 3px;
+}
+
+.menu_item_active a {
+  border-bottom: 3px solid #FBF6B9;
+}
+
+.menu_item a:hover {
+  color: #AC6583;
+  transition: 0.5s ease;
+}
+
+.phone {
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-right: 20px;
+}
+
+.phone:hover {
+  color: #AC6583;
+  transition: 0.5s ease;
+}
+
+.btn {
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 7px 20px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cart_btn {
+  margin-left: 5px;
+  background-color: #DE7CA6;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cart_btn:hover {
+  background-color: #F8C1D9;
+  transition: 0.5s ease;
+}
+
+.cart_btn:active {
+  background-color: #AC6583;
+  transition: 0.5s ease;
+}
+
+/* Candies Section */
+.candies {
+  padding: 50px 0px;
+}
+
+.candies_wrp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.candy_card {
+  width: 300px;
+  padding: 20px 10px;
+  border: 1px solid #FE9CC6;
+  margin-bottom: 40px;
+}
+
+.candy_pic {
+  margin: 0 auto;
+  display: block;
+}
+
+.candy_title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+.candy_price {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.candy_btn {
+  background-color: #FE9CC6;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+
+.candy_btn:hover {
+  background-color: #AC6583;
+  transition: 0.5s ease;
+}
+
+.candy_btn:active {
+  background-color: #F8C1D9;
+  transition: 0.5s ease;
+}
